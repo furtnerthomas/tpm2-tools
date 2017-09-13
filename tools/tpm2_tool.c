@@ -121,7 +121,7 @@ int main(int argc, char *argv[], char *envp[]) {
     /*
      * We don't want a cyclic dependency between tools/options. Resolving those
      * works well on linux/elf based systems, but darwin and windows tend to
-     * fall flat on there face. This is why we set quiet mode outside of
+     * fall flat on their face. This is why we set quiet mode outside of
      * option and argument life-cycle. Thus TOOL_OUTPUT is only guaranteed
      * to respect quiet from here on out (onrun and onexit).
      */
